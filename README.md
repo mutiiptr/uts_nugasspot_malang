@@ -202,5 +202,5 @@ Pastikan Flutter SDK sudah terpasang di perangkat Anda.
 - **NIM**: 240605110113
 - **Program Studi**: S1 Teknik Informatika
 - **Mata Kuliah**: Praktikum Pemrograman Mobile (Kelas A)
-- **Dosen Pengampu**: Syauqi (uqifumi)
+- **Dosen Pengampu**: SUPRIYONO, M.Kom
 - **Fakultas**: Sains dan Teknologi, UIN Maulana Malik Ibrahim Malang

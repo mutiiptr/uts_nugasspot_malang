@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../models/cafe.dart';
 import '../theme/app_theme.dart';
 import '../services/cafe_service.dart';
@@ -45,16 +46,31 @@ class _DetailPageState extends State<DetailPage> {
     );
   }
 
-  void _openMaps() {
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text('Membuka Google Maps menuju ${widget.cafe.name}...'),
-        duration: const Duration(seconds: 2),
-        behavior: SnackBarBehavior.floating,
-        backgroundColor: AppTheme.primary,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
-      ),
-    );
+  Future<void> _openMaps() async {
+    final uri = Uri.parse(widget.cafe.mapsUrl);
+    try {
+      final success = await launchUrl(
+        uri,
+        mode: LaunchMode.externalApplication,
+      );
+      if (!success && mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Tidak dapat membuka peta untuk ${widget.cafe.name}'),
+            backgroundColor: Colors.redAccent,
+          ),
+        );
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Gagal membuka maps: $e'),
+            backgroundColor: Colors.redAccent,
+          ),
+        );
+      }
+    }
   }
 
   @override
@@ -101,22 +117,39 @@ class _DetailPageState extends State<DetailPage> {
               background: Stack(
                 fit: StackFit.expand,
                 children: [
-                  Image.network(
-                    cafe.imageUrl,
-                    fit: BoxFit.cover,
-                    errorBuilder: (context, error, stackTrace) {
-                      return Container(
-                        color: AppTheme.primaryLight,
-                        child: const Center(
-                          child: Icon(
-                            Icons.local_cafe_rounded,
-                            size: 60,
-                            color: Colors.white,
-                          ),
+                  cafe.imageUrl.startsWith('assets/')
+                      ? Image.asset(
+                          cafe.imageUrl,
+                          fit: BoxFit.cover,
+                          errorBuilder: (context, error, stackTrace) {
+                            return Container(
+                              color: AppTheme.primaryLight,
+                              child: const Center(
+                                child: Icon(
+                                  Icons.local_cafe_rounded,
+                                  size: 60,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            );
+                          },
+                        )
+                      : Image.network(
+                          cafe.imageUrl,
+                          fit: BoxFit.cover,
+                          errorBuilder: (context, error, stackTrace) {
+                            return Container(
+                              color: AppTheme.primaryLight,
+                              child: const Center(
+                                child: Icon(
+                                  Icons.local_cafe_rounded,
+                                  size: 60,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            );
+                          },
                         ),
-                      );
-                    },
-                  ),
                   DecoratedBox(
                     decoration: BoxDecoration(
                       gradient: LinearGradient(

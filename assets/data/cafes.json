@@ -4,7 +4,10 @@
     "name": "Robusto Coffee",
     "tagline": "Hidden Gem Hening & Surganya WFC Lowokwaru",
     "category": "Focus & Quiet",
-    "categories": ["Focus & Quiet", "Outdoor & Refreshing"],
+    "categories": [
+      "Focus & Quiet",
+      "Outdoor & Refreshing"
+    ],
     "address": "Jl. Raya Tlogomas No. 2, Dinoyo, Kec. Lowokwaru",
     "subdistrict": "Lowokwaru",
     "rating": 4.9,
@@ -15,7 +18,7 @@
     "priceLevel": "$$",
     "wifiSpeed": "65 Mbps",
     "noiseLevel": "Tenang & Hening (Ideal untuk Deep Work)",
-    "imageUrl": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
+    "imageUrl": "assets/images/robusto.jpg",
     "facilities": [
       "Wi-Fi Kencang 65 Mbps",
       "Colokan Tiap Meja",
@@ -39,7 +42,10 @@
     "name": "CW Coffee & Eatery",
     "tagline": "Markas Nugas 24 Jam dengan Free Refill Sepuasnya",
     "category": "24 Jam Nonstop",
-    "categories": ["24 Jam Nonstop", "Budget Mahasiswa"],
+    "categories": [
+      "24 Jam Nonstop",
+      "Budget Mahasiswa"
+    ],
     "address": "Jl. Raya Tlogomas No. 34, Kec. Lowokwaru",
     "subdistrict": "Lowokwaru",
     "rating": 4.8,
@@ -50,7 +56,7 @@
     "priceLevel": "$",
     "wifiSpeed": "50 Mbps",
     "noiseLevel": "Sedang (Rame Produktif)",
-    "imageUrl": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80",
+    "imageUrl": "assets/images/cw_coffee.jpg",
     "facilities": [
       "Buka 24 Jam Setiap Hari",
       "Free Refill Nasi, Sambal & Es Teh",
@@ -74,7 +80,10 @@
     "name": "ARAH Coffee Gunungan",
     "tagline": "Estetika Minimalis Modern Buka 24 Jam Tengah Kota",
     "category": "24 Jam Nonstop",
-    "categories": ["24 Jam Nonstop", "Kalcer & Aesthetic"],
+    "categories": [
+      "24 Jam Nonstop",
+      "Kalcer & Aesthetic"
+    ],
     "address": "Jl. Merapi No. 15, Oro-oro Dowo, Kec. Klojen",
     "subdistrict": "Klojen",
     "rating": 4.8,
@@ -85,7 +94,7 @@
     "priceLevel": "$$",
     "wifiSpeed": "55 Mbps",
     "noiseLevel": "Sedang (Music Playlist Cozy)",
-    "imageUrl": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "imageUrl": "assets/images/arah_coffee.jpg",
     "facilities": [
       "Buka 24 Jam Penuh",
       "Konsep Minimalis Elegan",
@@ -109,7 +118,10 @@
     "name": "Warkop Brewok Prime",
     "tagline": "Warkop Modern 2 Lantai Super Luas Ramah Kantong",
     "category": "Budget Mahasiswa",
-    "categories": ["Budget Mahasiswa", "24 Jam Nonstop"],
+    "categories": [
+      "Budget Mahasiswa",
+      "24 Jam Nonstop"
+    ],
     "address": "Jl. Selorejo No. 83, Lowokwaru",
     "subdistrict": "Lowokwaru",
     "rating": 4.7,
@@ -120,7 +132,7 @@
     "priceLevel": "$",
     "wifiSpeed": "40 Mbps",
     "noiseLevel": "Cukup Ramai & Berenergi",
-    "imageUrl": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=800&q=80",
+    "imageUrl": "assets/images/warkop_brewok.jpg",
     "facilities": [
       "Buka 24 Jam Nonstop",
       "Gedung 2 Lantai Luas",
@@ -144,7 +156,11 @@
     "name": "Kalm Coffee Daily",
     "tagline": "Nugas Santai 24 Jam + Vintage Photobooth Hits",
     "category": "24 Jam Nonstop",
-    "categories": ["24 Jam Nonstop", "Budget Mahasiswa", "Kalcer & Aesthetic"],
+    "categories": [
+      "24 Jam Nonstop",
+      "Budget Mahasiswa",
+      "Kalcer & Aesthetic"
+    ],
     "address": "Kawasan Samaan, Kec. Klojen",
     "subdistrict": "Klojen",
     "rating": 4.8,
@@ -155,7 +171,7 @@
     "priceLevel": "$",
     "wifiSpeed": "50 Mbps",
     "noiseLevel": "Santai & Nyaman",
-    "imageUrl": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80",
+    "imageUrl": "assets/images/kalm_coffee.jpg",
     "facilities": [
       "Buka 24 Jam Setiap Hari",
       "Vintage Photobooth (Posestation)",
@@ -179,7 +195,9 @@
     "name": "Beryl Coffee & Work Space",
     "tagline": "Dedicated Co-Working Space Sunyi untuk Konsentrasi Penuh",
     "category": "Focus & Quiet",
-    "categories": ["Focus & Quiet"],
+    "categories": [
+      "Focus & Quiet"
+    ],
     "address": "Jl. Tawangmangu No. 21, Kec. Lowokwaru",
     "subdistrict": "Lowokwaru",
     "rating": 4.9,
@@ -190,7 +208,7 @@
     "priceLevel": "$$",
     "wifiSpeed": "70 Mbps",
     "noiseLevel": "Sangat Hening (Zero Distraction)",
-    "imageUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+    "imageUrl": "assets/images/beryl_coffee.jpg",
     "facilities": [
       "Wi-Fi Fiber 70 Mbps Anti-Lag",
       "Stopkontak Individu Tiap Kursi",
@@ -214,7 +232,10 @@
     "name": "Nowhere Coffee & Eatery",
     "tagline": "Vibes Tropis Kolam Ikan & Playlist Lo-Fi Depan Matos",
     "category": "Kalcer & Aesthetic",
-    "categories": ["Kalcer & Aesthetic", "Outdoor & Refreshing"],
+    "categories": [
+      "Kalcer & Aesthetic",
+      "Outdoor & Refreshing"
+    ],
     "address": "Jl. Veteran No. 7, Sumbersari, Kec. Lowokwaru",
     "subdistrict": "Lowokwaru",
     "rating": 4.8,
@@ -225,7 +246,7 @@
     "priceLevel": "$$",
     "wifiSpeed": "60 Mbps",
     "noiseLevel": "Sedang (Alunan Lo-Fi Chill)",
-    "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+    "imageUrl": "assets/images/nowhere_coffee.jpg",
     "facilities": [
       "Area Super Luas Indoor & Rindang",
       "Pemandangan Kolam Ikan & Pohon",
@@ -249,7 +270,10 @@
     "name": "Memorandum Coffee House",
     "tagline": "Kopian Kalcer Indie & Specialty Coffee Juara Rasa",
     "category": "Kalcer & Aesthetic",
-    "categories": ["Kalcer & Aesthetic", "Focus & Quiet"],
+    "categories": [
+      "Kalcer & Aesthetic",
+      "Focus & Quiet"
+    ],
     "address": "Jl. Menur No. 18, Kec. Klojen",
     "subdistrict": "Klojen",
     "rating": 4.9,
@@ -260,7 +284,7 @@
     "priceLevel": "$$",
     "wifiSpeed": "55 Mbps",
     "noiseLevel": "Tenang & Santai (Vibes Kalcer)",
-    "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80",
+    "imageUrl": "assets/images/memorandum.webp",
     "facilities": [
       "Specialty Coffee Beans Curated",
       "Interior Kalcer & Aesthetic",
@@ -284,7 +308,9 @@
     "name": "Dialoogi Space & Coffee",
     "tagline": "Pionir Co-Working Space Mahasiswa Koridor Suhat",
     "category": "Focus & Quiet",
-    "categories": ["Focus & Quiet"],
+    "categories": [
+      "Focus & Quiet"
+    ],
     "address": "Jl. Soekarno Hatta No. D-505, Mojolangu",
     "subdistrict": "Lowokwaru",
     "rating": 4.8,
@@ -295,7 +321,7 @@
     "priceLevel": "$$",
     "wifiSpeed": "60 Mbps",
     "noiseLevel": "Tenang Teratur",
-    "imageUrl": "https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?w=800&q=80",
+    "imageUrl": "assets/images/dialoogi.jpg",
     "facilities": [
       "Meja Komunal Kerja Panjang",
       "Colokan Terpasang di Setiap Meja",
@@ -319,7 +345,10 @@
     "name": "Nakoa Cafe MT Haryono",
     "tagline": "Tempat Nongkrong & Nugas Populer dengan Halaman Terbuka",
     "category": "Kalcer & Aesthetic",
-    "categories": ["Kalcer & Aesthetic", "Budget Mahasiswa"],
+    "categories": [
+      "Kalcer & Aesthetic",
+      "Budget Mahasiswa"
+    ],
     "address": "Jl. MT Haryono No. 116, Dinoyo, Kec. Lowokwaru",
     "subdistrict": "Lowokwaru",
     "rating": 4.7,
@@ -330,7 +359,7 @@
     "priceLevel": "$",
     "wifiSpeed": "45 Mbps",
     "noiseLevel": "Cukup Ramai",
-    "imageUrl": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&q=80",
+    "imageUrl": "assets/images/nakoa.jpg",
     "facilities": [
       "Area Semi-Outdoor Luas Rindang",
       "Stopkontak di Banyak Pilar & Meja",
@@ -354,7 +383,10 @@
     "name": "Lafayette Coffee & Eatery",
     "tagline": "Gedung Heritage Megah & Rooftop Sejuk View Pegunungan",
     "category": "Outdoor & Refreshing",
-    "categories": ["Outdoor & Refreshing", "Kalcer & Aesthetic"],
+    "categories": [
+      "Outdoor & Refreshing",
+      "Kalcer & Aesthetic"
+    ],
     "address": "Jl. Semeru No. 2, Oro-oro Dowo, Kec. Klojen",
     "subdistrict": "Klojen",
     "rating": 4.8,
@@ -365,7 +397,7 @@
     "priceLevel": "$$$",
     "wifiSpeed": "50 Mbps",
     "noiseLevel": "Santai & Tenang (Vibe Klasik)",
-    "imageUrl": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=800&q=80",
+    "imageUrl": "assets/images/lafayette.jpg",
     "facilities": [
       "Rooftop View Gunung Panderman",
       "Arsitektur Kolonial Heritage Menawan",
@@ -389,7 +421,10 @@
     "name": "Gartenhaus Co-Working Space",
     "tagline": "Co-Working Hijau Nuansa Rumah Kaca Kebun Asri",
     "category": "Outdoor & Refreshing",
-    "categories": ["Outdoor & Refreshing", "Focus & Quiet"],
+    "categories": [
+      "Outdoor & Refreshing",
+      "Focus & Quiet"
+    ],
     "address": "Jl. Kenanga Indah No. 1, Jatimulyo, Kec. Lowokwaru",
     "subdistrict": "Lowokwaru",
     "rating": 4.9,
@@ -400,7 +435,7 @@
     "priceLevel": "$$",
     "wifiSpeed": "55 Mbps",
     "noiseLevel": "Asri Tenang (Suara Gemericik Air)",
-    "imageUrl": "https://images.unsplash.com/photo-1445116572660-238429888259?w=800&q=80",
+    "imageUrl": "assets/images/gartenhaus.jpg",
     "facilities": [
       "Konsep Taman Hijau & Glasshouse",
       "Udara Segar Alami Bebas Polusi",
@@ -424,7 +459,9 @@
     "name": "Toko Kopi Jaya",
     "tagline": "Kopitiam Modern Suhat dengan Roti Srikaya Legendaris",
     "category": "Budget Mahasiswa",
-    "categories": ["Budget Mahasiswa"],
+    "categories": [
+      "Budget Mahasiswa"
+    ],
     "address": "Jl. Soekarno Hatta No. 24, Mojolangu",
     "subdistrict": "Lowokwaru",
     "rating": 4.7,
@@ -435,7 +472,7 @@
     "priceLevel": "$",
     "wifiSpeed": "40 Mbps",
     "noiseLevel": "Sedang (Santai Kopitiam)",
-    "imageUrl": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80",
+    "imageUrl": "assets/images/kopi_jaya.jpg",
     "facilities": [
       "Kopitiam Modern Bersahabat",
       "Harga Ramah Dompet Mahasiswa",
@@ -459,7 +496,10 @@
     "name": "Kopi Studio 24 Dinoyo",
     "tagline": "Basecamp Nugas 24 Jam Mahasiswa Sigura-gura & UIN",
     "category": "Budget Mahasiswa",
-    "categories": ["Budget Mahasiswa", "24 Jam Nonstop"],
+    "categories": [
+      "Budget Mahasiswa",
+      "24 Jam Nonstop"
+    ],
     "address": "Jl. Sunan Kalijaga No. 24, Dinoyo, Kec. Lowokwaru",
     "subdistrict": "Lowokwaru",
     "rating": 4.6,
@@ -470,7 +510,7 @@
     "priceLevel": "$",
     "wifiSpeed": "45 Mbps",
     "noiseLevel": "Berenergi Produktif",
-    "imageUrl": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&q=80",
+    "imageUrl": "assets/images/kopi_studio.jpg",
     "facilities": [
       "Buka 24 Jam Nonstop Tanpa Libur",
       "Stopkontak Melimpah di Setiap Meja",

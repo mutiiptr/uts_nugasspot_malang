@@ -23,41 +23,62 @@ class CafeCard extends StatelessWidget {
             top: const Radius.circular(16),
             bottom: isHorizontal ? const Radius.circular(16) : Radius.zero,
           ),
-          child: Image.network(
-            cafe.imageUrl,
-            height: height,
-            width: width ?? double.infinity,
-            fit: BoxFit.cover,
-            errorBuilder: (context, error, stackTrace) {
-              return Container(
-                height: height,
-                width: width ?? double.infinity,
-                color: AppTheme.accent.withValues(alpha: 0.2),
-                child: const Center(
-                  child: Icon(
-                    Icons.local_cafe_rounded,
-                    size: 40,
-                    color: AppTheme.primaryLight,
-                  ),
+          child: cafe.imageUrl.startsWith('assets/')
+              ? Image.asset(
+                  cafe.imageUrl,
+                  height: height,
+                  width: width ?? double.infinity,
+                  fit: BoxFit.cover,
+                  errorBuilder: (context, error, stackTrace) {
+                    return Container(
+                      height: height,
+                      width: width ?? double.infinity,
+                      color: AppTheme.accent.withValues(alpha: 0.2),
+                      child: const Center(
+                        child: Icon(
+                          Icons.local_cafe_rounded,
+                          size: 40,
+                          color: AppTheme.primaryLight,
+                        ),
+                      ),
+                    );
+                  },
+                )
+              : Image.network(
+                  cafe.imageUrl,
+                  height: height,
+                  width: width ?? double.infinity,
+                  fit: BoxFit.cover,
+                  errorBuilder: (context, error, stackTrace) {
+                    return Container(
+                      height: height,
+                      width: width ?? double.infinity,
+                      color: AppTheme.accent.withValues(alpha: 0.2),
+                      child: const Center(
+                        child: Icon(
+                          Icons.local_cafe_rounded,
+                          size: 40,
+                          color: AppTheme.primaryLight,
+                        ),
+                      ),
+                    );
+                  },
+                  loadingBuilder: (context, child, loadingProgress) {
+                    if (loadingProgress == null) return child;
+                    return Container(
+                      height: height,
+                      width: width ?? double.infinity,
+                      color: Colors.grey.shade200,
+                      child: const Center(
+                        child: SizedBox(
+                          width: 24,
+                          height: 24,
+                          child: CircularProgressIndicator(strokeWidth: 2),
+                        ),
+                      ),
+                    );
+                  },
                 ),
-              );
-            },
-            loadingBuilder: (context, child, loadingProgress) {
-              if (loadingProgress == null) return child;
-              return Container(
-                height: height,
-                width: width ?? double.infinity,
-                color: Colors.grey.shade200,
-                child: const Center(
-                  child: SizedBox(
-                    width: 24,
-                    height: 24,
-                    child: CircularProgressIndicator(strokeWidth: 2),
-                  ),
-                ),
-              );
-            },
-          ),
         ),
         // 24 Jam Badge (if open 24h)
         if (cafe.isOpen24Hours)
